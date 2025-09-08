@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             BT2Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Quang",
+                        name = "Quang, 23115053122135",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -42,6 +42,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     BT2Theme {
-        Greeting("Quang")
+        Greeting("Quang,23115053122135")
     }
 }
